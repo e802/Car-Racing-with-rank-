@@ -58,6 +58,7 @@ function draw() {
 
 }
 //displaying ranks
+//make this a table
 function showRank()
 {
   canvas.remove();
