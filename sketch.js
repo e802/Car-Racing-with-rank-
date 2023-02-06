@@ -7,12 +7,15 @@ var distance = 0;
 var database;
 
 var form, player, game;
+//Creating sprites for cars
 
 var cars, car1, car2, car3, car4;
 
 var track, car1_img, car2_img, car3_img, car4_img;
 var ranking;
 var button;
+
+//loading the images to reduce delay
 function preload() {
   track = loadImage("../images/track.jpg");
   car1_img = loadImage("../images/car1.png");
@@ -54,6 +57,7 @@ function draw() {
 
 
 }
+//displaying ranks
 function showRank()
 {
   canvas.remove();
